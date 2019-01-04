@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nuclearcraftaddon",
+  "name": "NuclearCraftAddon",
+  "description": "Addon for NuclearCraft.",
+  "version": "4.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "credits": "Tom, Asome, Suppergerrie2, and Skip", 
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

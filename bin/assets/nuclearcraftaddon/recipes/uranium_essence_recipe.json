@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "minecraft:water_bucket"
+        },
+
+        {
+            "item": "nuclearcraftaddon:uranium_ingot"
+        }
+    ],
+
+    "result": 
+    {
+        "item": "nuclearcraftaddon:test_item",
+        "count":2
+    }
+}

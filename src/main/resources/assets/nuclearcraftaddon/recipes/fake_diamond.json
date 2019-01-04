@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "minecraft:water_bucket"
+        },
+
+        {
+            "item": "minecraft:diamond_block"
+        }
+    ],
+
+    "result": 
+    {
+        "item": "nuclearcraftaddon:fake_diamons",
+        "count":1
+        
+    }  
+
+} 

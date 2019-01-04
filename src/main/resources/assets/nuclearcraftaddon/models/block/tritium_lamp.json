@@ -1,0 +1,8 @@
+{
+    
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "nuclearcraftaddon:blocks/tritium_lamp"
+
+    }
+}

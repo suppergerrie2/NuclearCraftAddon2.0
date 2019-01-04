@@ -1,0 +1,18 @@
+item.corn_seeds.name=Corn Seeds
+item.beer_can.name=Beer Can
+item.dragons_breath.name=Dragons Breath
+item.popcorn.name=Popcorn
+item.test_item.name=Test Item
+item.uranium_infused_beer.name=Uranium Infused Beer
+item.uranium_ingot.nameS=Uranium Ingot
+item.dragon_temp.name=Dragon Temp
+
+
+itemGroup.NC_Addon_Tab=NuclearCraftAddon
+
+
+tile.microwave.name=Microwave
+tile.fake_diamond.name=Fake Diamond
+tile.reactor_door.name=Reactor Door
+tile.old_concrete.name=Old Concrete
+tile.fake_diamond_ore.name=Fake Diamond Ore

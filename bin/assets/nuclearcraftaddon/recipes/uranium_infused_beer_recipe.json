@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "nuclearcraftaddon:test_item"
+        },
+
+        {
+            "item": "nuclearcraftaddon:beer_can"
+        }
+    ],
+
+    "result": 
+    {
+        "item": "nuclearcraftaddon:uranium_infused_beer",
+        "count": 1
+    }
+}
