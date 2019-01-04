@@ -14,8 +14,7 @@ public class TritiumLampFrame extends Block {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setSoundType(blockSoundType.GLASS);
-		setLightLevel(1);
+		setSoundType(blockSoundType.METAL);
 		setHarvestLevel("Pickaxe", 1);
 		this.setHardness(.2F); 
 
