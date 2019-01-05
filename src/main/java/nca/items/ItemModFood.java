@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 
 public class ItemModFood extends ItemFood {
 
-	
+
 	private PotionEffect[] effects;
 
 	public ItemModFood(String UnlocalizedName, int amount, boolean isWolfFood, PotionEffect...potionEffects) {
@@ -18,24 +18,24 @@ public class ItemModFood extends ItemFood {
 		this.setUnlocalizedName(UnlocalizedName);
 		this.setRegistryName(new ResourceLocation(Reference.MODID, UnlocalizedName));
 		this.effects = potionEffects;
-		
-		
+
+
 	}
-		
+
 	public ItemModFood(String UnlocalizedName, int amount, float saturation, boolean isWolfFood, PotionEffect...potionEffects) {
 		super(amount, saturation, isWolfFood);
 		this.setUnlocalizedName(UnlocalizedName);
 		this.setRegistryName(new ResourceLocation(Reference.MODID, UnlocalizedName));
 		this.effects = potionEffects; 
-		
+
 	}
-	
+
 	@Override
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		for(PotionEffect effect : effects) {
-			player.addPotionEffect(effect);
+			player.addPotionEffect(new PotionEffect(effect));
 		}
 	}
 
-	}
+}
 

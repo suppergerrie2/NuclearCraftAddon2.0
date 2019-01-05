@@ -8,7 +8,7 @@ import nca.blocks.Ore;
 import nca.blocks.Microwave;
 import nca.blocks.NCABlockDoor;
 import nca.blocks.TritiumLamp;
-import nca.blocks.TritiumLampFrame;
+import nca.blocks.TritiumLightFrame;
 import nca.tab.NCAddonTab;
 import nca.util.Reference;
 import net.minecraft.block.Block;
@@ -34,7 +34,7 @@ public class ModBlocks {
 	//Bunker Blocks
 	public static Block oldconcrete; 
 	public static Block tritiumlamp;
-	public static Block tritiumlampframe;
+	public static Block tritiumlightframe;
 
 
 	public static void init() {
@@ -50,7 +50,7 @@ public class ModBlocks {
 		//Bunker Blocks
 		oldconcrete = new BunkerBlocks("old_concrete", Material.ROCK); 
 		tritiumlamp  = new TritiumLamp("tritium_lamp", Material.GROUND); 
-		tritiumlampframe = new TritiumLampFrame("tritiumlampframe", Material.GROUND);
+		tritiumlightframe = new TritiumLightFrame("tritium_light_frame", Material.GROUND);
 
 
 		//Creative Tab
@@ -63,7 +63,7 @@ public class ModBlocks {
 		//Bunker Blocks
 		oldconcrete.setCreativeTab(NCAddonTab.NC_ADDON_TAB); 
 		tritiumlamp.setCreativeTab(NCAddonTab.NC_ADDON_TAB);
-		tritiumlampframe.setCreativeTab(NCAddonTab.NC_ADDON_TAB); 
+		tritiumlightframe.setCreativeTab(NCAddonTab.NC_ADDON_TAB); 
 
 	}
 
@@ -79,7 +79,7 @@ public class ModBlocks {
 		//Bunker Blocks
 		event.getRegistry().registerAll(oldconcrete);
 		event.getRegistry().registerAll(tritiumlamp);
-		event.getRegistry().registerAll(tritiumlampframe);
+		event.getRegistry().registerAll(tritiumlightframe);
 
 	}
 
@@ -94,7 +94,7 @@ public class ModBlocks {
 		//Bunker Blocks
 		event.getRegistry().registerAll(new ItemBlock(oldconcrete).setRegistryName(oldconcrete.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(tritiumlamp).setRegistryName(tritiumlamp.getRegistryName()));
-		event.getRegistry().registerAll(new ItemBlock(tritiumlampframe).setRegistryName(tritiumlampframe.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(tritiumlightframe).setRegistryName(tritiumlightframe.getRegistryName()));
 		
 	}
 
@@ -109,7 +109,7 @@ public class ModBlocks {
 		//Bunker Blocks
 		registerRender(Item.getItemFromBlock(oldconcrete));
 		registerRender(Item.getItemFromBlock(tritiumlamp));
-		registerRender(Item.getItemFromBlock(tritiumlampframe));
+		registerRender(Item.getItemFromBlock(tritiumlightframe));
 
 
 	}

@@ -7,7 +7,6 @@ import nc.recipe.ingredient.EmptyItemIngredient;
 import nc.recipe.ingredient.FluidIngredient;
 import nc.util.FluidRegHelper;
 import nca.blocks.TritiumLamp;
-import nca.blocks.TritiumLampFrame;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
@@ -23,7 +22,7 @@ public class NCARecipes {
 	public static void init() {
 		GameRegistry.addSmelting(ModItems.cornseeds, new ItemStack(ModItems.popcorn, 1), 1f);
 
-		NCRecipes.Type.INFUSER.getRecipeHandler().addRecipe(ModBlocks.tritiumlampframe, fluidStack("tritium", 2000), ModBlocks.tritiumlamp);
+		NCRecipes.Type.INFUSER.getRecipeHandler().addRecipe(ModBlocks.tritiumlightframe, fluidStack("tritium", 2000), ModBlocks.tritiumlamp);
 		//NCRecipes.Type.INFUSER.getRecipeHandler().addRecipe(ModBlocks.tritiumlampframe, fluidStack("tritium", 2000), ModBlocks.tritiumlamp);
 
 		

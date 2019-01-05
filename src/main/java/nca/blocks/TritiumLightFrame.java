@@ -8,9 +8,9 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.ResourceLocation;
 
-public class TritiumLampFrame extends Block {
+public class TritiumLightFrame extends Block {
 
-	public TritiumLampFrame (String name, Material material) {
+	public TritiumLightFrame (String name, Material material) {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);

@@ -15,4 +15,7 @@ tile.microwave.name=Microwave
 tile.fake_diamond.name=Fake Diamond
 tile.reactor_door.name=Reactor Door
 tile.old_concrete.name=Old Concrete
-tile.fake_diamond_ore.name=Fake Diamond Ore
+tile.fake_diamond_ore.name=Moissanite
+
+tile.tritium_lamp.name=Tritium Light
+tile.tritiumlampframe.name=Tritium Light Frame

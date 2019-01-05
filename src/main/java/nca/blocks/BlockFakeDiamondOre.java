@@ -29,18 +29,18 @@ public class BlockFakeDiamondOre extends Block {
 
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-		
+
 		return ModItems.diamondingot;
 	}
 
 	@Override
 	public int quantityDropped(IBlockState state, int fortune, Random random) {
 		if(random.nextFloat()<0.7){
-		    return 1;
+			return 1;
 		} else {
-		    return 2;
+			return 2;
 		}
 	}
-	
+
 }
 
