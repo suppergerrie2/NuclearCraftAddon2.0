@@ -39,9 +39,6 @@ public class Microwave extends BasicBlock implements ITileEntityProvider {
 
 	public Microwave (String name, Material material) {
 		super(name, Material.IRON);
-		setUnlocalizedName(name);
-		setRegistryName(name);
-
 		this.setHardness(2F);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
 		setSoundType(SoundType.METAL); 
