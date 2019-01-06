@@ -26,7 +26,7 @@ public class NCARecipes {
 		//NCRecipes.Type.INFUSER.getRecipeHandler().addRecipe(ModBlocks.tritiumlampframe, fluidStack("tritium", 2000), ModBlocks.tritiumlamp);
 
 		
-		NCRecipes.Type.EXTRACTOR.getRecipeHandler().addRecipe(Items.WHEAT, new EmptyItemIngredient(), fluidStack("water", 1000));
+		//NCRecipes.Type.EXTRACTOR.getRecipeHandler().addRecipe(Items.WHEAT, new EmptyItemIngredient(), fluidStack("water", 1000));
 		
 		
 		NCRecipes.Type.DISSOLVER.getRecipeHandler().addRecipe(ModItems.cornseeds, fluidStack("water", 1000), fluidStack("lava", 1000) );

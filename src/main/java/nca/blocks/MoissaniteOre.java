@@ -16,9 +16,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 
-public class BlockFakeDiamondOre extends Block {
+public class MoissaniteOre extends Block {
 
-	public BlockFakeDiamondOre(String name, Material material) {
+	public MoissaniteOre(String name, Material material) {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);

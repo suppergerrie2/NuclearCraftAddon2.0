@@ -24,10 +24,10 @@ public class OreGen implements IWorldGenerator {
 		case -1:
 			break;
 		case 0:
-			runGenerator(ModBlocks.fakediamondore.getDefaultState(), 7, 10, 0, 225, BlockMatcher.forBlock(Blocks.SANDSTONE), world, random, chunkX, chunkZ);
+			runGenerator(ModBlocks.moissaniteore.getDefaultState(), 7, 10, 0, 225, BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
 			break;
 		case 1:
-			runGenerator(ModBlocks.fakediamondore.getDefaultState(), 7, 10, 0, 255, BlockMatcher.forBlock(Blocks.END_STONE), world, random, chunkX, chunkZ);
+			runGenerator(ModBlocks.moissaniteore.getDefaultState(), 7, 10, 0, 255, BlockMatcher.forBlock(Blocks.END_STONE), world, random, chunkX, chunkZ);
 			break;
 		}
 	}

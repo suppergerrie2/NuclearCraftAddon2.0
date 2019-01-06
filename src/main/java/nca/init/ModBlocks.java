@@ -1,7 +1,7 @@
 package nca.init;
 
 
-import nca.blocks.BlockFakeDiamondOre;
+import nca.blocks.MoissaniteOre;
 import nca.blocks.BunkerBlocks;
 import nca.blocks.FakeDiamond;
 import nca.blocks.Ore;
@@ -28,7 +28,7 @@ public class ModBlocks {
 	public static Block fakediamond;
 	public static Block microwave;
 	public static Block reactordoor;
-	public static Block fakediamondore;
+	public static Block moissaniteore;
  
 
 	//Bunker Blocks
@@ -43,8 +43,8 @@ public class ModBlocks {
 		reactordoor = new NCABlockDoor("reactor_door", Material.IRON); 
 		
 		
-		fakediamondore = new BlockFakeDiamondOre("fake_diamond_ore", Material.ROCK); 
-		fakediamondore.setHardness(2f);
+		moissaniteore = new MoissaniteOre("moissanite_ore", Material.ROCK); 
+		moissaniteore.setHardness(2f);
 		
 		
 		//Bunker Blocks
@@ -57,7 +57,7 @@ public class ModBlocks {
 		fakediamond.setCreativeTab(NCAddonTab.NC_ADDON_TAB);
 		microwave.setCreativeTab(NCAddonTab.NC_ADDON_TAB);
 		reactordoor.setCreativeTab(NCAddonTab.NC_ADDON_TAB); 
-		fakediamondore.setCreativeTab(NCAddonTab.NC_ADDON_TAB);
+		moissaniteore.setCreativeTab(NCAddonTab.NC_ADDON_TAB);
 
 
 		//Bunker Blocks
@@ -72,7 +72,7 @@ public class ModBlocks {
 		event.getRegistry().registerAll(fakediamond);
 		event.getRegistry().registerAll(microwave);
 		event.getRegistry().registerAll(reactordoor);
-		event.getRegistry().registerAll(fakediamondore);
+		event.getRegistry().registerAll(moissaniteore);
 
 
 
@@ -87,7 +87,7 @@ public class ModBlocks {
 	public static void regiterItemBlocks(RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(new ItemBlock(fakediamond).setRegistryName(fakediamond.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(microwave).setRegistryName(microwave.getRegistryName()));
-		event.getRegistry().registerAll(new ItemBlock(fakediamondore).setRegistryName(fakediamondore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(moissaniteore).setRegistryName(moissaniteore.getRegistryName()));
 
 
 
@@ -103,7 +103,7 @@ public class ModBlocks {
 		registerRender(Item.getItemFromBlock(fakediamond));
 		registerRender(Item.getItemFromBlock(microwave));
 		registerRender(Item.getItemFromBlock(reactordoor));
-		registerRender(Item.getItemFromBlock(fakediamondore));
+		registerRender(Item.getItemFromBlock(moissaniteore));
 
 
 		//Bunker Blocks

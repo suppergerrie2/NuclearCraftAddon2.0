@@ -20,16 +20,13 @@ public class TritiumLightFrame extends Block {
 
 	} 
 
-	@Override 
-	public boolean isOpaqueCube(IBlockState state) {
-		return false; 
-
+	@Override
+	public boolean isFullCube(IBlockState state) {
+		return false;
 	}
 
 	@Override 
 	public BlockRenderLayer getBlockLayer() {
 		return BlockRenderLayer.CUTOUT;  
-
-	}		
-
+	}
 }
