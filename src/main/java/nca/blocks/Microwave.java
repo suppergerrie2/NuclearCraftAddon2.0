@@ -30,7 +30,7 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class Microwave extends BunkerBlocks implements ITileEntityProvider {
+public class Microwave extends BasicBlock implements ITileEntityProvider {
 
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING; 
@@ -114,8 +114,9 @@ public static void setstate(boolean active,World worldIn, BlockPos pos) {
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn,
 			EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 
-		worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite()), 2); 
-
+		worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, playerIn.getHorizontalFacing().getOpposite()), 2); 
+		return true; 
+		
 	}
 
 	@Override
