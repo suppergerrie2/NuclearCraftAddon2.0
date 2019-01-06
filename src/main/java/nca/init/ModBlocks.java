@@ -40,7 +40,7 @@ public class ModBlocks {
 
 	public static void init() {
 		fakediamond = new FakeDiamond("fake_diamond", Material.IRON);
-		microwave = new Microwave("microwave");
+		microwave = new Microwave("microwave", Material.IRON);
 		reactordoor = new NCABlockDoor("reactor_door", Material.IRON); 
 		
 		

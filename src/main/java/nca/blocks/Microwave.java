@@ -37,8 +37,7 @@ public class Microwave extends BasicBlock implements ITileEntityProvider {
 	public static final PropertyBool BURNING = PropertyBool.create("burning"); 
 
 
-
-	public Microwave(String name) {
+	public Microwave (String name, Material material) {
 		super(name, Material.IRON);
 		setUnlocalizedName(name);
 		setRegistryName(name);
