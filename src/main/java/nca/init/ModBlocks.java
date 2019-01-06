@@ -29,6 +29,7 @@ public class ModBlocks {
 	public static Block microwave;
 	public static Block reactordoor;
 	public static Block moissaniteore;
+	
  
 
 	//Bunker Blocks
@@ -39,7 +40,7 @@ public class ModBlocks {
 
 	public static void init() {
 		fakediamond = new FakeDiamond("fake_diamond", Material.IRON);
-		microwave = new Microwave("microwave", Material.IRON);
+		microwave = new Microwave("microwave");
 		reactordoor = new NCABlockDoor("reactor_door", Material.IRON); 
 		
 		
