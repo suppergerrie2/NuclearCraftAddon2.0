@@ -19,3 +19,9 @@ tile.moissanite_ore.name=Moissanite Ore
 
 tile.tritium_lamp.name=Tritium Light
 tile.tritiumlampframe.name=Tritium Light Frame
+
+//Reference
+item.corn_seeds.name.reference=the descripition
+item.popcorn.name.reference=the descripition
+item.uranium_infused_beer.name.reference=the descripition
+item.nuclear_bread.name.reference=the descripition

@@ -53,10 +53,10 @@ public class ModItems {
 
 		//Item Foods
 
-		cornseeds = new ItemModFood("corn_seeds", 4, 4, true);
-		popcorn = new ItemModFood("popcorn", 15, 10, true);
-		uraniuminfusedbeer = new ItemModFood("uranium_infused_beer", 3, 4, false, new PotionEffect(MobEffects.BLINDNESS, 600, 2), new PotionEffect(MobEffects.NAUSEA, 550, 2, false, false));
-		nuclearbread = new ItemModFood("nuclear_bread", 15, 15, false, new PotionEffect(MobEffects.GLOWING, 600, 3));
+		cornseeds = new ItemModFood("corn_seeds", 4, 4, true, "item.cornseeds.name.reference");
+		popcorn = new ItemModFood("popcorn", 15, 10, true, "item.popcorn.name.reference");
+		uraniuminfusedbeer = new ItemModFood("uranium_infused_beer", 3, 4, false, new PotionEffect(MobEffects.BLINDNESS, 600, 2), new PotionEffect(MobEffects.NAUSEA, 550, 2, false, false), "item.uranium_infused_beer.name.reference");
+		nuclearbread = new ItemModFood("nuclear_bread", 15, 15, false, new PotionEffect(MobEffects.GLOWING, 600, 3), "item.nuclear_bread.name.reference");
 
 		//potion id 15 = Blindness;
 		//potion id 9 = Nausea;
